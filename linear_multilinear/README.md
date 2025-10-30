@@ -8,9 +8,9 @@ Simple and multiple linear regression models predicting weight from body measure
 - Performance metrics (R², RMSE)
 - Matplotlib visualization
 
-================================================================================
+
 Loading Dataset and Preparing Data
-================================================================================
+
 Dataset loaded successfully.
 
 Checking for missing values:
@@ -45,9 +45,9 @@ Encoding 'gender' column (One-Hot)...
 Gender column encoded.
 
 
-================================================================================
+
 SIMPLE LINEAR REGRESSION: Height → Weight
-================================================================================
+
 
 Training set size: 1400 samples
 Testing set size:  600 samples
@@ -61,9 +61,9 @@ Model Performance (Simple):
 R² Score: 0.2625
 RMSE: 11.47 kg
 
-================================================================================
+
 MULTIPLE LINEAR REGRESSION: All Features → Weight
-================================================================================
+
 
 Model Parameters:
 Intercept: -46.04
@@ -80,12 +80,12 @@ Model Performance (Multiple):
 R² Score: 0.8624
 RMSE: 4.96 kg
 
-================================================================================
+
 MODEL COMPARISON: Simple vs. Multiple Linear Regression
-================================================================================
+
 Simple Model (Height only):     R² = 0.2625, RMSE = 11.47 kg
 Multiple Model (All features):  R² = 0.8624, RMSE = 4.96 kg
-================================================================================
+
 
 ![alt text](image.png)
 
